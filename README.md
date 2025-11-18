@@ -5,7 +5,7 @@
 ## beer_name_creator  
 - Program that asks the user two questions of your choosing  
 - Show in the console both answers as part of a text "The name of the beer is (Beer Name)"  
-- The beer name has to ho in between double quotations and in a second line of text  
+- The beer name has to be in between double quotations and in a second line of text  
 
 ---
   
