@@ -22,8 +22,8 @@ word_list = text.split()
 count_words = len(word_list)
 
 # FIRST AND LAST LETTERS
-first_letter = word_list[0]
-last_letter = word_list[-1]
+first_letter = text[0]
+last_letter = text[-1]
 
 # TEXT REVERSED
 rev_word_list = word_list[::-1]
@@ -31,6 +31,7 @@ rev_text = " ".join(rev_word_list)
 
 # PYTHON?
 python_appear = "Python".lower() in text.lower()
+answer = {True:"Yes", False:"No"}
 
 # PRINT OUTPUTS
 print(f"\nThe letter '{l1}' appears {count_l1} times")
@@ -39,4 +40,4 @@ print(f"The letter '{l3}' appears {count_l3} times")
 print(f"\nThere's {count_words} words in the text")
 print(f"\nThe first letter in the text is '{first_letter}' and the last letter is '{last_letter}'")
 print(f"\nThe reversed text is\n'{rev_text}'")
-print(f"\nThe word 'Python' appears in the text?\n{python_appear}")
+print(f"\nThe word 'Python' appears in the text?\n{answer[python_appear]}")
