@@ -1,3 +1,5 @@
-Soy la primera linea
-¡Vaya! ¡Yo soy la segunda!
-He quedado tercera
+New Text
+Hello
+World
+Newer text
+Using mode 'a'
