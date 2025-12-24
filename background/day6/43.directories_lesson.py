@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 
-"""
 path = os.getcwd()
 print(path)
 
@@ -27,7 +26,6 @@ os.rmdir("D:\\Documents Local\\Portfolio\\learning_python\\background\\day6\\cla
 other_file = open("D:\\Documents Local\\Portfolio\\learning_python\\background\\day6\\class_material\\directory_test\\test_file.txt")
 print(other_file.read())
 other_file.close()
-"""
 
 directory = Path("D:/Documents Local/Portfolio/learning_python/background/day6/class_material/directory_test")
 file = directory / "test_file.txt"
